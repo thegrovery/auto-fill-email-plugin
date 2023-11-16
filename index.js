@@ -37,7 +37,7 @@ UTM Parameter example:
 // Function to get email by secret code
 	function getEmailBySecretCode(code) {
 	    const pair = secretCodeEmailPairs.find(pair => pair.secretCode === code);
-	    return pair ? pair.email : 'No email found for this secret code.';
+	    return pair ? pair.email : 'No email detected';
 	}
 
 // Example usage
